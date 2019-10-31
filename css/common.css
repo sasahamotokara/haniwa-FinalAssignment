@@ -227,7 +227,7 @@ body.no-scroll {
 
 	color: #ffffff;
 	border-radius: 12px 12px 0 0;
-	background: #e6e6e6 url(/img/contact-02.jpg) no-repeat;
+	background: #e6e6e6 url(/haniwa-FinalAssignment/img/contact-02.jpg) no-repeat;
 	background-position: center center;
 	background-size: cover;
 
@@ -421,7 +421,7 @@ p + p {
 	width: 100%;
 	height: 100vh;
 
-	background: #e6e6e6 url(/img/mv_01.jpg) no-repeat;
+	background: #e6e6e6 url(/haniwa-FinalAssignment/img/mv_01.jpg) no-repeat;
 	background-position: center center;
 	background-position-x: -240px;
 	background-size: cover;
@@ -660,15 +660,15 @@ ul + ul, ol + ol, ul + ol, ol + ul {
 }
 
 .list-service .hdg-lv3.icon.design::before {
-	background: url(/img/icon-sprite.png) no-repeat 0 1px;
+	background: url(/haniwa-FinalAssignment/img/icon-sprite.png) no-repeat 0 1px;
 }
 
 .list-service .hdg-lv3.icon.coding::before {
-	background: url(/img/icon-sprite.png) no-repeat -50px 6px;
+	background: url(/haniwa-FinalAssignment/img/icon-sprite.png) no-repeat -50px 6px;
 }
 
 .list-service .hdg-lv3.icon.cms::before {
-	background: url(/img/icon-sprite.png) no-repeat -100px 6px;
+	background: url(/haniwa-FinalAssignment/img/icon-sprite.png) no-repeat -100px 6px;
 }
 
 .list-service p {
@@ -744,11 +744,11 @@ ul + ul, ol + ol, ul + ol, ol + ul {
 }
 
 .list-comment .icon.human-01::before {
-	background: url(/img/icon-sprite.png) no-repeat -101px -44px;
+	background: url(/haniwa-FinalAssignment/img/icon-sprite.png) no-repeat -101px -44px;
 }
 
 .list-comment .icon.human-02::before {
-	background: url(/img/icon-sprite.png) no-repeat -101px -100px;
+	background: url(/haniwa-FinalAssignment/img/icon-sprite.png) no-repeat -101px -100px;
 }
 
 .list-comment .icon p {
@@ -1478,7 +1478,7 @@ textarea:hover, textarea:active, textarea:focus {
 	position: relative;
 	z-index: 1;
 
-	background: #e6e6e6 url(/img/qa-01.jpg) no-repeat;
+	background: #e6e6e6 url(/haniwa-FinalAssignment/img/qa-01.jpg) no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
@@ -1569,7 +1569,7 @@ textarea:hover, textarea:active, textarea:focus {
 .field-contact {
 	padding: 40px 16px;
 
-	background: #e6e6e6 url(/img/contact-01.jpg) no-repeat;
+	background: #e6e6e6 url(/haniwa-FinalAssignment/img/contact-01.jpg) no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
@@ -2088,10 +2088,10 @@ html[data-script-enabled].ie11 .js-carousel .carousel-indicator li button:hover:
 		height: 100px;
 	}
 	.list-comment .icon.human-01::before{
-		background: url(/img/icon-sprite.png) no-repeat 0 -44px;
+		background: url(/haniwa-FinalAssignment/img/icon-sprite.png) no-repeat 0 -44px;
 	}
 	.list-comment .icon.human-02::before{
-		background: url(/img/icon-sprite.png) no-repeat 0 -144px;
+		background: url(/haniwa-FinalAssignment/img/icon-sprite.png) no-repeat 0 -144px;
 	}
 	.list-comment .icon p{
 		font-size: 16px;
