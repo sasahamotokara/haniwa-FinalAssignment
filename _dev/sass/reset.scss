@@ -1,0 +1,158 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  word-break: break-all;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-animation-fill-mode: both;
+  -webkit-appearance: none;
+  -webkit-backface-visibility: hidden;
+  overflow-wrap: break-word;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, button, input, textarea, select, option, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  color: #3E3E3E;
+  border: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  font-family: 'Montserrat', '游ゴシック体', YuGothic, '游ゴシック', 'Yu Gothic', sans-serif;
+  font-size: calc(1rem * .625);
+  width: 100%;
+  min-width: 320px;
+  background: #F3F3F3;
+}
+
+body {
+  width: 100%;
+  min-width: 320px;
+  background: #F3F3F3;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  &:hover, &:active, &:focus {
+    color: inherit;
+  }
+  &[aria-disabled="true"] {
+    pointer-events: none;
+  }
+}
+
+p {
+  @include fz(16);
+  line-height: 1.45;
+  letter-spacing: .5px;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+i, em {
+  font-style: italic;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote {
+  &:before, &:after {
+    content: "";
+    content: none;
+  }
+}
+
+q {
+  &:before, &:after {
+    content: "";
+    content: none;
+  }
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+label {
+  cursor: pointer;
+}
+
+input, textarea {
+  font-family: 'Montserrat', '游ゴシック体', YuGothic, '游ゴシック', 'Yu Gothic', sans-serif;
+}
+
+:-ms-input-placeholder {
+  opacity: 0.56;
+}
+
+input[type="checkbox"],
+input[type="radio"],
+::-ms-check {
+  appearance: none;
+}
+
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  border-bottom: solid 1px #ededed;
+}
+
+ruby {
+  letter-spacing: 2px;
+  @include fz(28);
+}
+
+rt {
+  @include fz(12);
+}
+
+select {
+  appearance: none;
+  background: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+::-moz-selection {
+  background: rgba(0, 100, 180, 0.33);
+  background: rgba(0, 100, 180, 0.33);
+}
+
+::selection {
+  background: rgba(0, 100, 180, 0.33);
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}

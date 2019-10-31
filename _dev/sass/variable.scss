@@ -1,0 +1,38 @@
+$common-width: 1180px;
+
+$cl-white: #fff;
+$cl-black: #3e3e3e;
+$cl-lightblack: #cdcdcd;
+$cl-gray: #e6e6e6;
+$cl-blue: #3b69ff;
+$cl-red: #ff4646;
+$cl-summry: #ffaa3b;
+$cl-disabled: #b2b2b2;
+$cl-success: #91ce4c;
+
+$breakpoints: (
+  'pc': 'screen and (min-width: 769px)'
+) !default;
+
+@mixin bp( $breakpoint: md ) {
+  @media #{map-get( $breakpoints, $breakpoint )} {
+    @content;
+  }
+}
+
+@mixin fz($size, $base: 10) {
+  font-size: $size + px;
+  font-size: ($size / $base) + rem;
+}
+
+@mixin flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin square($l:100%) {
+  width: $l;
+  height: $l;
+}
